@@ -1,0 +1,10 @@
+# python program to sort list ascending order using functions
+
+def my_function(s):
+    s1=sorted(s)
+    print("Sorted list in ascending order =",s1)
+s=[1,2,3,5,4]
+my_function(s)
+
+output:
+Sorted list in ascending order = [1, 2, 3, 4, 5]
