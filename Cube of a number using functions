@@ -1,0 +1,11 @@
+# python program for cube of a number using functions
+
+def cubes(n):
+    cube=n**3
+    print("Cube of a number =",cube)
+n=int(input("Enter the number:"))
+cubes(n)
+
+output:
+Enter the number:2
+Cube of a number = 8
