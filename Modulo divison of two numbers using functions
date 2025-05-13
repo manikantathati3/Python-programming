@@ -1,0 +1,16 @@
+# python program for modulodivision of two numbers using functions
+
+def my_function(n1,n2):
+    if n2==0:
+        print("Error! modulo division not possible")
+    else:
+        remainder=n1%n2
+        print("Modulo division of two numbers =",remainder)
+n1=int(input("Enter the first number:"))
+n2=int(input("Enter the second number:"))
+my_function(n1,n2)
+
+output:
+Enter the first number:3
+Enter the second number:2
+Modulo divison of two numbers = 1
