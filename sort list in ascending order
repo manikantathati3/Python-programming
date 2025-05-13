@@ -1,0 +1,8 @@
+# python program to sort list in ascending order
+
+s=[1,2,3,5,4]
+s1=sorted(s)
+print("Sorted list in ascending order =",s1)
+
+output:
+Sorted list in ascending order = [1, 2, 3, 4, 5]
